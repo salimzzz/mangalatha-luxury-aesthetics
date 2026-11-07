@@ -53,7 +53,7 @@ export default function Appointment() {
       const text = encodeURIComponent(
         `Hello Mangalatha Luxury Aesthetics,\n\nI would like to book an appointment.\nName: ${formData.name}\nPhone: ${formData.phone}\nService: ${formData.service}\nPreferred Date: ${formData.date}\nNotes: ${formData.message || 'None'}`
       )
-      const whatsappUrl = `https://wa.me/919876543210?text=${text}`
+      const whatsappUrl = `https://wa.me/919037864939?text=${text}`
 
       // Open WhatsApp in new tab
       window.open(whatsappUrl, '_blank')
@@ -113,7 +113,7 @@ export default function Appointment() {
                 </p>
                 <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
                   <a
-                    href={`https://wa.me/919876543210?text=${encodeURIComponent(
+                    href={`https://wa.me/919037864939?text=${encodeURIComponent(
                       `Hello Mangalatha,\nI am following up on my booking request for ${formData.name} (${formData.service}).`
                     )}`}
                     target="_blank"
@@ -282,7 +282,9 @@ export default function Appointment() {
                       Mangalatha Luxury Aesthetics Studio
                     </p>
                     <p className="text-xs text-espresso/70 font-light mt-0.5">
-                      [Business Address — Coming Soon]
+                      NH 744, opposite Sana Auditorium,<br />
+                      Kallumthazham, Kollam,<br />
+                      Keralam — 691004
                     </p>
                   </div>
                 </div>
@@ -294,10 +296,10 @@ export default function Appointment() {
                       Direct Concierge
                     </span>
                     <a
-                      href="tel:+919876543210"
+                      href="tel:+919037864939"
                       className="text-sm font-sans text-espresso hover:text-gold transition-colors"
                     >
-                      +91 (0) 98765 43210
+                      +91 90378 64939
                     </a>
                   </div>
                 </div>
@@ -355,13 +357,21 @@ export default function Appointment() {
               </div>
               <h4 className="font-serif text-lg text-espresso mb-1">Find Us Here</h4>
               <p className="text-xs text-espresso/70 font-sans max-w-xs font-light">
-                Interactive map integration and studio coordinates will be unveiled upon grand opening.
+                NH 744, opposite Sana Auditorium, Kallumthazham, Kollam, Keralam 691004
               </p>
+              <a
+                href="https://maps.google.com/?q=NH+744+opposite+Sana+Auditorium+Kallumthazham+Kollam+Kerala+691004"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-block text-xs font-sans uppercase tracking-widest text-gold hover:text-espresso border-b border-gold/50 transition-colors"
+              >
+                Open in Google Maps →
+              </a>
             </div>
 
             {/* WhatsApp Direct Chat Banner */}
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919037864939"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between p-4 bg-[#25D366]/10 border border-[#25D366]/40 hover:bg-[#25D366]/20 transition-colors text-[#128C7E]"

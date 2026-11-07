@@ -135,11 +135,12 @@ export default function Footer() {
               Connect With Us
             </h4>
             <p className="text-xs text-ivory/70 font-sans leading-relaxed mb-4">
-              Mangalatha Luxury Aesthetics Studio<br />
-              [Business Address — Coming Soon]
+              NH 744, opposite Sana Auditorium,<br />
+              Kallumthazham, Kollam,<br />
+              Keralam — 691004
             </p>
             <p className="text-xs text-ivory/70 font-sans mb-2">
-              <span className="text-gold">T:</span> +91 (0) 98765 43210
+              <span className="text-gold">T:</span> +91 90378 64939
             </p>
             <p className="text-xs text-ivory/70 font-sans mb-6">
               <span className="text-gold">E:</span> concierge@mangalatha.com
