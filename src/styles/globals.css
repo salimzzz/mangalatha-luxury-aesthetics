@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F6F0E6;
+  color: #302A27;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center bg-ivory text-espresso px-8 py-3.5 font-sans text-xs tracking-[0.2em] uppercase font-semibold hover:bg-beige hover:shadow-lg transition-all duration-300;
+  }
+  .btn-outline-gold {
+    @apply inline-flex items-center justify-center border border-gold text-gold px-8 py-3.5 font-sans text-xs tracking-[0.2em] uppercase font-semibold hover:bg-gold hover:text-espresso hover:shadow-lg transition-all duration-300;
+  }
+  .btn-burgundy {
+    @apply inline-flex items-center justify-center bg-burgundy text-ivory px-8 py-3.5 font-sans text-xs tracking-[0.2em] uppercase font-semibold hover:bg-[#381615] hover:shadow-lg transition-all duration-300;
+  }
+  .section-label {
+    @apply text-gold font-sans text-xs tracking-[0.3em] uppercase font-medium;
+  }
+  .section-heading {
+    @apply font-serif text-3xl sm:text-4xl md:text-5xl text-espresso leading-tight tracking-normal;
+  }
+  .gold-divider {
+    @apply h-px bg-gold flex-1 opacity-50;
+  }
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F6F0E6;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9C8B3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C4A165;
+}
